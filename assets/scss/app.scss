@@ -5,7 +5,8 @@
 /* ==========================================================================
 Colors!
 ========================================================================== */
-$brand-color:#d71920;
+//$brand-color:#d71920;
+$brand-color:#EA3859;
 $black:#1e1c1f;
 $txtblack: #343534;
 /* =========================================================================
@@ -61,29 +62,28 @@ section{
 Buttons
 ========================================================================== */
 a.btn,button.btn{
-  margin: 8px 0;
-  //background:#6a3093;
-  background: #F62459;
+  margin: 8px auto;
+  background: $brand-color;
   border: none;
   color:#fff;
-  font-size: 2em;
-  padding: .4em 0;
-  width: 80%;
-  max-width: 12em;
-  display: block;
+  font-size: 1.3em;
+  padding: .7em .97em;
+  width: auto;
   transition: all 0.3s ease;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
+  border-radius:1%;
   &:hover{
     color: inherit;
-    background: lighten(#F62459,5%);
+    background: lighten($brand-color,5%);
   }
 }
 /* =========================================================================
 Nav Bar
 ========================================================================== */
 nav{
-  position: fixed;
+  position: absolute;
   top:0;left:0;right:0;
   z-index: 100;
   padding: 0 2em;
@@ -153,6 +153,7 @@ nav{
   bottom:0;
   z-index: 999;
   background: #199D8F;
+  overflow: scroll;
   ul{
     padding: 6em 0;
     li{
@@ -162,7 +163,13 @@ nav{
       margin:1em 0;
       a{color:#fff;font-size: 1em}
     }
+    .menu-social-ico{
+      a{padding: 0 1em;}
+    }
   }
+}
+.bodyoverflow{
+  overflow: hidden;
 }
 .nav-menu{display: none;}
 .nav-menu.nav-open{display: block;}
@@ -179,7 +186,9 @@ Home Page Header
 }
 .h_HomeBanner_Text{
   z-index: 100;
+  max-width: 60em;
   position: relative;
+  margin:0 auto; 
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
@@ -187,8 +196,8 @@ Home Page Header
   color: #fff;
   h1{
     letter-spacing: 3px
-  }
-  
+  } 
+  p{font-size: 1.3em;margin:1.98em 0}
 }
 .filter{    
   position: absolute;
@@ -199,9 +208,15 @@ Home Page Header
   left: 0;
   z-index: 0;
 }
+.h_homeabout{
+  background: #199D8F;
+  color: #fff;
+}
 /* =========================================================================
 Footer
 ========================================================================== */
 footer{
+  background: $txtblack;
+  color: #fff;
   padding: 14px 0
 }
