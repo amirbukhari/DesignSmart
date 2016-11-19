@@ -16,7 +16,7 @@ Typography
 .emoji{font-weight:400;font-family:"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Segoe UI Symbol","Android Emoji",EmojiSymbols}
 $base-font: 14px;
 body.aodaText{
-  font-size: $base-font + 2px;
+  font-size: $base-font * 1.4;
   transition: 0.3s all ease;
 }
 body{
@@ -367,4 +367,6 @@ footer{
     overflow: scroll;
   }
 }
-
+.popupcontact{
+  display: none;
+}
