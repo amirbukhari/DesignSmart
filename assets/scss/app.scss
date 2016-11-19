@@ -83,6 +83,7 @@ section{
   box-shadow:0 1px 1px #888;
   padding: 2em 1em;
   text-align: center;
+  vertical-align: top;
   img{
     max-width: 130px;
     max-height: 120px;
@@ -106,6 +107,7 @@ a.btn,button.btn{
   text-decoration: none;
   text-transform: uppercase;
   border-radius:1%;
+  font-family: 
   &:hover{
     color: inherit;
     background: lighten($brand-color,5%);
@@ -290,6 +292,26 @@ Home Page Header
       margin:0 1%;
     }
     display: inline-block;
+    height: auto;
+  }
+  ul{
+    li{text-align: left}
+  }
+}
+.h_homepackages-services{
+  padding-top: 4em;
+  .col-md-4{
+    h2{font-size: 2.5em}
+    padding: 2em 2em;
+    text-align: center;
+    img{max-width: 180px;max-height:140px}
+  }
+  .card{
+    display: inline-block;
+    width:29%;
+    margin: 2% 1%;
+    background: #fff;
+    vertical-align: top
   }
 }
 .h_homepackages_cta{
@@ -324,6 +346,10 @@ Home Page Header
   .homectaresults-txtwrap{
     padding: 4em 2em 1em 2em;
   }
+}
+.s_services{
+  background: $brand-color;
+  color: #fff;
 }
 /* =========================================================================
 Footer
