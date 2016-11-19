@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 h1{
   margin:0.49em 0;
   font-size:2.5em; font-weight:700;
-  font-family: 'Abril Fatface';
+  font-family: 'Open Sans',Helvetica,Arial, sans-serif;
   @media(min-width:600px){font-size:4em;}
 }
 h2{
@@ -86,7 +86,9 @@ Home Page Header
 .h_HomeBanner{
   height: 100vh;
   padding: 0;
-
+  background-image: url("../../build/img/Stock Photos/Stock4.jpg");
+  background-position:center center;
+  background-size:cover;
 }
 .h_HomeBanner_Text{
   z-index: 100;
@@ -95,14 +97,17 @@ Home Page Header
   transform: translateY(-50%);
   text-align: center;
   padding: .95em;
-  background-image: url("");
-  background-position: 0 0;
+  color: #fff;
+  h1{
+    letter-spacing: 3px
+  }
+  
 }
 .filter{    
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(89,49,216,.05);
+  background: rgba(70,49,40,.65);
   top: 0;
   left: 0;
   z-index: 0;
