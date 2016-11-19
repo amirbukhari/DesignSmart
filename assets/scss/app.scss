@@ -79,6 +79,9 @@ a.btn,button.btn{
     background: lighten(#F62459,5%);
   }
 }
+/* =========================================================================
+Nav Bar
+========================================================================== */
 
 /* =========================================================================
 Home Page Header
@@ -89,6 +92,7 @@ Home Page Header
   background-image: url("../../build/img/Stock Photos/Stock4.jpg");
   background-position:center center;
   background-size:cover;
+  position: relative;
 }
 .h_HomeBanner_Text{
   z-index: 100;
