@@ -132,8 +132,8 @@ nav{
   margin-right: 0;
   display: inline-block;
   position: absolute;
-  right: 2em;
-  top:1.5em;
+  right: 30px;
+  top:10px;
 }
 .h_NavTrigger-Container{
   position: relative;
@@ -178,8 +178,8 @@ nav{
 .btn.aoda{
   display: none;
   position: absolute;
-  top: 0.85em;
-  right: 7em;
+  top: 5px;
+  right: 90px;
   @media(min-width:400px){
     display: block;
   }
