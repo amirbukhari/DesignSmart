@@ -170,7 +170,15 @@ nav{
     display: none;
   }
 }
-
+.aoda{
+  display: none;
+  position: absolute;
+  top: 0.5em;
+  right: 4em;
+  @media(min-width:400px){
+    display: block;
+  }
+}
 /*Nav menu*/
 .nav-menu{
   position: fixed;
