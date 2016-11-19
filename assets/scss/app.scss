@@ -83,7 +83,11 @@ a.btn,button.btn{
 /* =========================================================================
 Home Page Header
 ========================================================================== */
-.h_HomeBanner{}
+.h_HomeBanner{
+  height: 100vh;
+  padding: 0;
+
+}
 .h_HomeBanner_Text{
   z-index: 100;
   position: relative;
@@ -91,6 +95,15 @@ Home Page Header
   transform: translateY(-50%);
   text-align: center;
   padding: .95em;
+}
+.filter{    
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(89,49,216,.05);
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 /* =========================================================================
 Footer
