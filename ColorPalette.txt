@@ -1,0 +1,11 @@
+#10aba1 		Teal
+
+#f0516c			Red/Pink
+
+#d9d44f			Gold/Yellow
+
+#b88e2e			Brown
+
+#ed7623			Orange
+
+#0e3443			Dark Blue
