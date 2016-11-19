@@ -8,8 +8,4 @@ $('.h_NavTrigger').click(function(){
   $(this).toggleClass('isclicked');
   $('.nav-menu').toggleClass('nav-open');
   $('body').toggleClass('bodyoverflow');
-  
-})
-$('.h_NavTrigger .isclicked').click(function(){
-  //document.body.style.overflow = "scroll";
 })
