@@ -9,3 +9,8 @@ $('.h_NavTrigger').click(function(){
   $('.nav-menu').toggleClass('nav-open');
   $('body').toggleClass('bodyoverflow');
 })
+
+$('.aoda').click(function(){
+	
+	$('body').toggleClass("aodaText");
+});
